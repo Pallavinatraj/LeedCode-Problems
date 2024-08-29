@@ -1,4 +1,4 @@
-//Separate the Digits in an Array 
+ //Separate the Digits in an Array 
 function separateDigits(nums) {
     let ans = nums.join('').split('');
     let answer =[];
