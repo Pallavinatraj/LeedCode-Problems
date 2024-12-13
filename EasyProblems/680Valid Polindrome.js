@@ -12,7 +12,7 @@ var validPalindrome = function (s) {
 
     while (left < right) {
         if (s[left] !== s[right]) {
-            return isPolindrome(s, left + 1, right)
+            return isPolindrome(s, left + 1, right) || isPolindrome(s, left, right - 1);
         }
         left++;
         right--;
