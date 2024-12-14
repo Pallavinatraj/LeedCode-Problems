@@ -7,8 +7,6 @@
 // [3,6] -> (3 + 6 <= 9)
 
 
-
-
 var numSubseq = function (nums, target) {
     nums.sort((a, b) => a - b);
     let pow = [];
