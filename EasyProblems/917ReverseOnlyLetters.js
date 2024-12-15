@@ -1,3 +1,6 @@
+// Input: s = "a-bC-dEf-ghIj"
+// Output: "j-Ih-gfE-dCba"
+
 var reverseOnlyLetters = function (s) {
     let left = 0;
     let right = s.length - 1;

@@ -10,6 +10,4 @@ var isPalindrome = function (s) {
     let str = s.split('').reverse().join('');
 
     return str === s;
-
-
 };
