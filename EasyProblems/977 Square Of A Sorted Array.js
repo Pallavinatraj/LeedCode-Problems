@@ -23,3 +23,21 @@ function swap(nums, i, j) {
     nums[i] = nums[j];
     nums[j] = temp;
 }
+
+// Using Two Pointer Approach (it take O(N)
+var sortedSquares = function(nums) {
+    let left = 0;
+    let right = nums.length-1;
+    let arr = new Array(nums.length);
+    
+  for (let i = nums.length - 1; i >= 0; i--) {
+         if (Math.abs(nums[left]) > Math.abs(nums[right])) {
+             arr[i] = nums[left] ** 2; 
+             left++;
+         } else {
+             arr[i] = nums[right] ** 2;  
+             right--;
+         }
+    }
+   return arr;  
+ };
