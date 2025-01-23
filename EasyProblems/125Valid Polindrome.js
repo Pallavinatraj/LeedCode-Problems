@@ -1,4 +1,4 @@
-  // Input: s = "A man, a plan, a canal: Panama"
+   // Input: s = "A man, a plan, a canal: Panama"
 // Output: true
 // Explanation: "amanaplanacanalpanama" is a palindrome
 
