@@ -1,4 +1,4 @@
-    var findMedianSortedArrays = function (nums1, nums2) {
+     var findMedianSortedArrays = function (nums1, nums2) {
     let arr = nums1.concat(nums2).sort((a, b) => a - b);
     let n = arr.length;
     if (n % 2 === 0) {
