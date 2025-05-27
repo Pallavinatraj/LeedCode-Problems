@@ -23,6 +23,7 @@ function findHighestFrequency(arr){
     for(let a of arr){
         map[a] = (map[a] || 0)+1;
     }
+    
     console.log(map);
 }
 let arr = [10,5,10,15,10,5];
